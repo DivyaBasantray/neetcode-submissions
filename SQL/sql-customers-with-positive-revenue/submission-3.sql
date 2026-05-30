@@ -1,5 +1,4 @@
--- Write your query below
-select customer_id
-from customers
-where revenue > 0
-and year = 2020;
+SELECT customer_id
+FROM customers
+WHERE revenue > 0
+AND YEAR = 2020;
